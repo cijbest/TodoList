@@ -1,0 +1,102 @@
+body{
+  background-color: #567ea7;
+  color: rgb(255, 255, 255);
+}
+
+.form,
+.greetings{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.js-weather{
+  float: right;
+}
+
+.clockLine{
+  width: 100%; /* 너비를 전체로 잡고 중앙정렬 */
+  text-align: center;
+}
+
+ul{
+  all: unset;
+  /* 
+  list-style: none;  ul 앞의 점 제거 
+  padding: 0; 점과 글자 사이 여백 제거 
+  */
+}
+
+.xBtn{
+  all: unset;
+  margin-left: 20px;
+  font-size: 25px; /* 이모지는 폰트라고 보면 된다 */
+}
+
+.js-toDoForm input{
+  all: unset;
+  background-color: transparent;
+  /* color: lavender;
+  border-bottom: lavender; */ 
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.js-toDoForm input::placeholder{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.js-clock h1{
+  font-size: 550%;
+  margin-bottom: 0px;
+}
+
+.weatherImg{
+  width: 30%;
+  height: 30%;
+}
+
+.js-form input{
+  all: unset;
+  margin: 50px;
+}
+
+.js-form input::placeholder{
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.js-greetings{
+  margin: 50px;
+}
+
+.vBtn{
+  all: unset;
+}
+
+.checkedList{
+  text-decoration: line-through;
+}
