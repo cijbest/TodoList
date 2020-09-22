@@ -25,14 +25,15 @@
    ![insert](https://user-images.githubusercontent.com/24764210/93878107-802fa200-fd14-11ea-8e82-85eefee2c8a1.jpg) 
 
    4-2.  끝낸 리스트 항목 표시
-
+   
+   * 네모 칸을 클릭 시 리스트 항목에 취소선 표시
+   
    ![11](https://user-images.githubusercontent.com/24764210/93878122-858cec80-fd14-11ea-902d-58d2c5c65dfe.jpg)    ------>     ![22](https://user-images.githubusercontent.com/24764210/93878129-8887dd00-fd14-11ea-81e6-f09ebde4f921.jpg)
 
-   * 네모 칸을 클릭 시 리스트 항목에 취소선 표시
+
 
    4-3.  리스트 항목 삭제
-
-   ![33](https://user-images.githubusercontent.com/24764210/93878138-8b82cd80-fd14-11ea-95b7-262ea59e498b.jpg) 
-
+   
    *  체크 모양을 클릭시 리스트에서 항목을 삭제
-
+   
+   ![33](https://user-images.githubusercontent.com/24764210/93878138-8b82cd80-fd14-11ea-95b7-262ea59e498b.jpg) 
